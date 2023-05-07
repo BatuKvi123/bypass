@@ -1,0 +1,103 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88 
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER
+]=]
+
+-- Instances: 7 | Scripts: 2 | Modules: 0
+local G2L = {};
+
+-- StarterGui.Bypasser
+G2L["1"] = Instance.new("ScreenGui", game.CoreGui);
+G2L["1"]["Name"] = [[Bypasser]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+
+-- StarterGui.Bypasser.Frame
+G2L["2"] = Instance.new("Frame", G2L["1"]);
+G2L["2"]["BorderSizePixel"] = 0;
+G2L["2"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2"]["Size"] = UDim2.new(0, 437, 0, 198);
+G2L["2"]["Position"] = UDim2.new(0.3693251609802246, 0, 0.17034068703651428, 0);
+
+-- StarterGui.Bypasser.Frame.Chat
+G2L["3"] = Instance.new("TextButton", G2L["2"]);
+G2L["3"]["TextWrapped"] = true;
+G2L["3"]["BorderSizePixel"] = 0;
+G2L["3"]["TextScaled"] = true;
+G2L["3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["3"]["TextSize"] = 14;
+G2L["3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["3"]["Size"] = UDim2.new(0, 410, 0, 50);
+G2L["3"]["Name"] = [[Chat]];
+G2L["3"]["Text"] = [[Chat]];
+G2L["3"]["Position"] = UDim2.new(0.02597402036190033, 0, 0.6666666269302368, 0);
+
+-- StarterGui.Bypasser.Frame.Chat.LocalScript
+G2L["4"] = Instance.new("LocalScript", G2L["3"]);
+
+
+-- StarterGui.Bypasser.Frame.TextBox
+G2L["5"] = Instance.new("TextBox", G2L["2"]);
+G2L["5"]["CursorPosition"] = -1;
+G2L["5"]["BorderSizePixel"] = 0;
+G2L["5"]["TextSize"] = 14;
+G2L["5"]["TextWrapped"] = true;
+G2L["5"]["TextScaled"] = true;
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(255, 216, 189);
+G2L["5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["5"]["PlaceholderText"] = [[Type Here...]];
+G2L["5"]["Size"] = UDim2.new(0, 410, 0, 58);
+G2L["5"]["Text"] = [[]];
+G2L["5"]["Position"] = UDim2.new(0.02597402036190033, 0, 0.2626262605190277, 0);
+
+-- StarterGui.Bypasser.Frame.Ttile
+G2L["6"] = Instance.new("TextLabel", G2L["2"]);
+G2L["6"]["TextWrapped"] = true;
+G2L["6"]["TextScaled"] = true;
+G2L["6"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["6"]["TextSize"] = 14;
+G2L["6"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["6"]["Size"] = UDim2.new(0, 424, 0, 50);
+G2L["6"]["Text"] = [[Bypasser By Noremius]];
+G2L["6"]["Name"] = [[Ttile]];
+G2L["6"]["BackgroundTransparency"] = 1;
+G2L["6"]["Position"] = UDim2.new(0.011441648006439209, 0, 0, 0);
+
+-- StarterGui.Bypasser.Frame.LocalScript
+G2L["7"] = Instance.new("LocalScript", G2L["2"]);
+
+
+-- StarterGui.Bypasser.Frame.Chat.LocalScript
+local function C_4()
+local script = G2L["4"];
+	unicode = "ꜗ"
+	
+	
+	
+	
+	
+	
+	script.Parent.MouseButton1Click:Connect(function()	
+		script.Parent.Text = "Sent!"
+		wait(1)
+		script.Parent.Text = "Chat"
+		game.ReplicatedStorage.DefaultChatSystemChatEvents.SayMessageRequest:FireServer("أ"..string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(string.gsub(script.Parent.Parent.TextBox.Text,"fuc","أfu"..unicode.."c"),"shit","أsh"..unicode.."it"),"bitch","أbi"..unicode.."tch"),"fag","f"..unicode.."ag"),"hitler","hi"..unicode.."tler"),"أfu"..unicode.."cking","أfu"..unicode.."ckingأ"),"di","d"..unicode.."i"),"pus","أpus"..unicode..""),"assh","أas"..unicode.."sh"),"coc","أc"..unicode.."oc"),"cunt","أأcu"..unicode.."nt"),"tit","t"..unicode.."it"),"pedo","p"..unicode.."edo"),"peni","p"..unicode.."eni"),"vagin","v"..unicode.."agin"),"d"..unicode.."ickh","أd"..unicode.."ickh"),"sperm","أsp"..unicode.."erm"),"bull","أbull"),"dum","أdum"),"hore","h"..unicode.."ore"),"slut","أslu"..unicode.."t"),"porn","p"..unicode.."orn"),"sex","أs"..unicode.."ex"),"dyke","dy"..unicode.."ke"),"d"..unicode.."ip","أdip"),"nig","أأn"..unicode.."ig"),"rap","أra"..unicode.."p"),"cum","أcu"..unicode.."m"),"rap","أra"..unicode.."p"),"kik","ki"..unicode.."k"),"jizz","jiz"..unicode.."z"),"retarded","أre"..unicode.."tarded"),"d"..unicode.."ildo","أd"..unicode.."ildo"),"boobies","bo"..unicode.."obies"),"nude","أأnu"..unicode.."de"),"biatch","bi"..unicode.."atch"),"hentai","h"..unicode.."entai"),"testicl","t"..unicode.."esticl"),"genatalia","g"..unicode.."enatalia"),"boner","b"..unicode.."oner"),"clit","c"..unicode.."lit"),"cooch","c"..unicode.."ooch"),"blowjob",""..unicode.."blo"..unicode.."wjob"),"v"..unicode.."aginas","va"..unicode.."ginas"),"pube","p"..unicode.."ube"),"أc"..unicode.."ocaine","أco"..unicode.."caine"),"mierda","m"..unicode.."ierda"),"perra","p"..unicode.."erra"),"gilipollas","g"..unicode.."ilipollas"),"merde","m"..unicode.."erde"),"connard","c"..unicode.."onnard"),"coño","c"..unicode.."oño"),"Fu","أFu"..unicode..""),"Shit","أSh"..unicode.."it"),"Bitch","أBi"..unicode.."tch"),"Fag","F"..unicode.."ag"),"Hitler","Hi"..unicode.."tler"),"أFu"..unicode.."cking","أFu"..unicode.."ckingأ"),"Di","D"..unicode.."i"),"Pus","أPus"..unicode..""),"Assh","أAs"..unicode.."sh"),"Coc","أC"..unicode.."oc"),"Cunt","أأCu"..unicode.."nt"),"Tit","T"..unicode.."it"),"Pedo","P"..unicode.."edo"),"Peni","P"..unicode.."eni"),"Vagin","V"..unicode.."agin"),"Dickh","أD"..unicode.."ickh"),"Sperm","أSp"..unicode.."erm"),"Bull","أBull"),"Dum","أDum"),"Hore","H"..unicode.."ore"),"Slut","أSlu"..unicode.."t"),"Porn","P"..unicode.."orn"),"Sex","أS"..unicode.."ex"),"Dyke","Dy"..unicode.."ke"),"D"..unicode.."ip","أDip"),"Nig","أأN"..unicode.."ig"),"Rap","أRa"..unicode.."p"),"Cum","Cu"..unicode.."m"),"Kik","Ki"..unicode.."k"),"Jizz","Jiz"..unicode.."z"),"Retarded","أRe"..unicode.."tarded"),"D"..unicode.."ildo","أD"..unicode.."ildo"),"Boobies","Bo"..unicode.."obies"),"Nude","N"..unicode.."ude"),"Biatch","Bi"..unicode.."atch"),"Hentai","H"..unicode.."entai"),"Testicl","T"..unicode.."esticl"),"Genatalia","G"..unicode.."enatalia"),"Boner","B"..unicode.."oner"),"Blowjob","B"..unicode.."lowjob"),"Pube","P"..unicode.."ube"),"Clit","C"..unicode.."lit"),"Cooch","C"..unicode.."ooch"),"أC"..unicode.."ocaine","أCo"..unicode.."caine"),"Mierda","M"..unicode.."ierda"),"Perra","P"..unicode.."erra"),"Gilipollas","G"..unicode.."ilipollas"),"Merde","M"..unicode.."erde"),"Connard","C"..unicode.."onnard"),"Coño","C"..unicode.."oño"),"FUC","أFU"..unicode.."C"),"SHIT","أSH"..unicode.."IT"),"BITCH","أBI"..unicode.."TCH"),"FAG","F"..unicode.."AG"),"HITLER","HI"..unicode.."TLER"),"أFU"..unicode.."CKING","أFU"..unicode.."CKINGأ"),"DI","D"..unicode.."I"),"PUS","أPUS"..unicode..""),"ASSH","أAS"..unicode.."SH"),"COC","أC"..unicode.."OC"),"CUNT","أأCU"..unicode.."NT"),"TIT","T"..unicode.."IT"),"PEDO","P"..unicode.."EDO"),"PENI","P"..unicode.."ENI"),"VAGIN","V"..unicode.."AGIN"),"D"..unicode.."ICKH","أD"..unicode.."ICKH"),"SPERM","أSP"..unicode.."ERM"),"BULL","أBULL"),"DUM","أDUM"),"HORE","H"..unicode.."ORE"),"SLUT","أSLU"..unicode.."T"),"PORN","P"..unicode.."ORN"),"SEX","أS"..unicode.."EX"),"DYKE","DY"..unicode.."KE"),"D"..unicode.."IP","أDIP"),"NIG","أأN"..unicode.."IG"),"RAP","أRA"..unicode.."P"),"CUM","CU"..unicode.."M"),"RAP","أRA"..unicode.."P"),"KIK","KI"..unicode.."K"),"JIZZ","JIZ"..unicode.."Z"),"RETARDED","أRE"..unicode.."TARDED"),"D"..unicode.."ILDO","أD"..unicode.."ILDO"),"BOOBIES","BO"..unicode.."OBIES"),"NUDE","أأNU"..unicode.."DE"),"BIATCH","BI"..unicode.."ATCH"),"HENTAI","H"..unicode.."ENTAI"),"TESTICL","T"..unicode.."ESTICL"),"GENATALIA","G"..unicode.."ENATALIA"),"BONER","B"..unicode.."ONER"),"CLIT","C"..unicode.."LIT"),"COOCH","C"..unicode.."OOCH"),"BLOWJOB","B"..unicode.."LOWJOB"),"أC"..unicode.."OCAINE","أCO"..unicode.."CAINE"),"PUBE","P"..unicode.."UBE"),"MIERDA","M"..unicode.."IERDA"),"PERRA","P"..unicode.."ERRA"),"GILIPOLLAS","G"..unicode.."ILIPOLLAS"),"MERDE","M"..unicode.."ERDE"),"CONNARD","C"..unicode.."ONNARD"),"COÑO","C"..unicode.."OÑO"),"1"," 1 "),"2"," 2 "),"3"," 3 "),"4"," 4 "),"5"," 5 "),"6"," 6 "),"7"," 7 "),"8"," 8 "),"9"," 9 "),"0"," 0 "),"6 9","6 9أ"),"4 2 0","4 2 0أ")," ","أ").."أأ","All")
+	end)
+end;
+task.spawn(C_4);
+-- StarterGui.Bypasser.Frame.LocalScript
+local function C_7()
+local script = G2L["7"];
+	script.Parent.Draggable = true
+	script.Parent.Active = true
+	script.Parent.Selectable = true
+end;
+task.spawn(C_7);
+
+return G2L["1"], require;
